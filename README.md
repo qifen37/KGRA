@@ -27,7 +27,6 @@ We provide the dataset in the [data](data/) folder.
 
 The current repository is structured in the following way:
 ```
-|-- KGRA.jpg
 |-- README.md
 |-- main.py
 |-- test.py

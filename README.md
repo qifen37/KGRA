@@ -1,10 +1,6 @@
 # KGRA
 
-![model](D:\PG_WSL\Protein complex\Article-protein\刘源新论文\KGRA-main\model.jpg)
-
 **This is the data and code for our paper** `Knowledge Graph Relational Attention Model for Drug Repurposing`.
-
-The development of new drugs is costly and time-consuming. Drug repurposing has gained popularity as an efficient and low-risk approach to finding new therapeutic options by using drugs that have already been broadened to treat new diseases. Recently, knowledge graph-based methods have been used for drug repurposing. These models predict new drug-disease relations by learning low-dimensional embeddings of entities and relationships. The graph attention network (GAT) and graph convolutional network (GCN) can generate richer and more expressive feature embeddings, so they perform well in relation prediction. However, most graph neural networks ignore relationship and complex relationship combination information, so they are unsuitable for direct use in knowledge graphs. Moreover, noise during the training process of knowledge graph embedding will impact the optimization of model parameters. In this study, we propose a knowledge graph relational multi-head attention network with denoising for drug repurposing, called KGRA. Firstly, the relational multi-head attention network (RMHA) is proposed to combine the attention scores of context triples and aggregated messages. The RMHA fully learns the semantic information of neighboring entities and relations, enhancing the ability to represent entity embedding. Then, the Interact Layer module is used as the decoder to obtain heterogeneous feature interactions in entity and relation representations. Finally, knowledge-weighted loss is introduced to reduce the impact of noise on model training. Experiments on three datasets show that the model is superior to the existing knowledge graph embedding (KGE) and graph neural network methods.
 
 ## Requirements
 * `Python(version >= 3.6)`
